@@ -1,0 +1,1952 @@
+[
+  {
+    "parking_space": [
+      {
+        "id": "6762066c-6c79-429e-886e-70ee468528e2",
+        "location": "Parking Lot A",
+        "size": 71765,
+        "availability_times": "9 AM - 5 PM",
+        "restrictions": "No overnight parking",
+        "created_at": "2023-08-25T08:43:05.449Z",
+        "updated_at": "2023-08-24T19:37:30.003Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "daa7cd65-166e-4de3-a590-be7b1e0bb1f1",
+        "location": "Street Parking B",
+        "size": 29834,
+        "availability_times": "24/7",
+        "restrictions": "Reserved for employees only",
+        "created_at": "2023-08-25T09:02:46.383Z",
+        "updated_at": "2023-08-24T10:55:54.320Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ddea4e33-3d28-4fb7-b93b-312910540937",
+        "location": "Underground Garage C",
+        "size": 3905,
+        "availability_times": "8 AM - 6 PM",
+        "restrictions": "No parking on weekends",
+        "created_at": "2023-08-25T02:30:23.651Z",
+        "updated_at": "2023-08-24T13:33:44.613Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "14956c82-67cc-46e1-8fb9-f8ce5042be45",
+        "location": "Open Field D",
+        "size": 69749,
+        "availability_times": "7 AM - 11 PM",
+        "restrictions": "Maximum 2-hour parking",
+        "created_at": "2023-08-25T05:45:45.083Z",
+        "updated_at": "2023-08-25T07:41:42.872Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "44e040d4-8301-4508-aa38-e9f85bf1d778",
+        "location": "Multi-Level Parking E",
+        "size": 52968,
+        "availability_times": "6 AM - 10 PM",
+        "restrictions": "Permit required",
+        "created_at": "2023-08-25T02:34:26.719Z",
+        "updated_at": "2023-08-24T16:46:31.171Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "business": [
+      {
+        "id": "cd2ff24c-acf7-4353-aaf1-1d01006bb9a6",
+        "name": "ABC Store",
+        "address": "123 Main Street",
+        "contact_number": "(123) 456-7890",
+        "created_at": "2023-08-24T11:33:35.456Z",
+        "updated_at": "2023-08-25T07:20:27.666Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "792564a3-ee13-42a0-885b-6ec5c250ce3d",
+        "name": "XYZ Cafe",
+        "address": "456 Elm Avenue",
+        "contact_number": "(987) 654-3210",
+        "created_at": "2023-08-24T23:15:12.843Z",
+        "updated_at": "2023-08-24T23:44:41.534Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e817e3ce-b0bf-452b-bfde-a12a0a009aea",
+        "name": "123 Bakery",
+        "address": "789 Oak Drive",
+        "contact_number": "(555) 123-4567",
+        "created_at": "2023-08-24T13:51:36.603Z",
+        "updated_at": "2023-08-25T03:37:38.145Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9e2be16-c937-4687-8508-d96ffd2830f0",
+        "name": "Acme Pharmacy",
+        "address": "321 Pine Lane",
+        "contact_number": "(888) 999-0000",
+        "created_at": "2023-08-24T16:45:45.215Z",
+        "updated_at": "2023-08-24T16:33:52.404Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cc3fe85d-b98f-430e-bc4a-7dac0741c975",
+        "name": "Global Gym",
+        "address": "654 Maple Road",
+        "contact_number": "(777) 888-9999",
+        "created_at": "2023-08-24T22:06:03.012Z",
+        "updated_at": "2023-08-24T16:31:50.418Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "4e347cf8-cc57-4161-9aa8-4911156d8875",
+        "start_time": "2023-08-24T13:35:23.093Z",
+        "end_time": "2023-08-24T18:56:20.574Z",
+        "created_at": "2023-08-24T12:10:56.615Z",
+        "updated_at": "2023-08-24T19:50:15.233Z",
+        "parking_space_id": "ddea4e33-3d28-4fb7-b93b-312910540937",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d92b0583-9a31-4534-9cfb-9d13f1a19e29",
+        "start_time": "2023-08-24T16:17:32.221Z",
+        "end_time": "2023-08-24T10:00:11.702Z",
+        "created_at": "2023-08-24T11:33:59.009Z",
+        "updated_at": "2023-08-24T19:30:57.498Z",
+        "parking_space_id": "ddea4e33-3d28-4fb7-b93b-312910540937",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc21a96e-3675-4b1a-8165-8ebfd1ea732a",
+        "start_time": "2023-08-25T05:17:05.848Z",
+        "end_time": "2023-08-24T22:33:47.064Z",
+        "created_at": "2023-08-25T09:54:45.769Z",
+        "updated_at": "2023-08-24T16:12:55.909Z",
+        "parking_space_id": "ddea4e33-3d28-4fb7-b93b-312910540937",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "58d4e189-1f09-44ef-9a00-c950d6475666",
+        "start_time": "2023-08-24T23:22:05.853Z",
+        "end_time": "2023-08-25T08:14:12.970Z",
+        "created_at": "2023-08-25T04:34:48.512Z",
+        "updated_at": "2023-08-25T02:37:16.877Z",
+        "parking_space_id": "14956c82-67cc-46e1-8fb9-f8ce5042be45",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cbbc2f9b-8e29-4e49-82e5-99fd4ddd7ac6",
+        "start_time": "2023-08-24T21:56:29.975Z",
+        "end_time": "2023-08-25T03:31:34.127Z",
+        "created_at": "2023-08-24T21:23:23.251Z",
+        "updated_at": "2023-08-24T18:31:39.431Z",
+        "parking_space_id": "6762066c-6c79-429e-886e-70ee468528e2",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8ec5a7da-2e76-4c00-b376-0d02b1b70240",
+        "email": "Emely83@yahoo.com",
+        "firstName": "Hassie",
+        "lastName": "Toy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79770003",
+        "tenantId": null
+      },
+      {
+        "reference": "6847900a-00d4-42a3-92d6-18c275b74332",
+        "email": "Randall.Will8@hotmail.com",
+        "firstName": "Keegan",
+        "lastName": "Koelpin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37034426",
+        "tenantId": null
+      },
+      {
+        "reference": "7bcac03d-bf62-49ec-a757-9442447d6b2c",
+        "email": "Roger.Gislason@gmail.com",
+        "firstName": "Lewis",
+        "lastName": "Kuhlman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1021.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "935dcd92-56a9-40a2-b9f2-c57f38012e81",
+        "email": "Gabriella_Schamberger@yahoo.com",
+        "firstName": "Velda",
+        "lastName": "Kunde",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/86.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "279d121d-21e0-4d44-9dc2-8049b1cae7ac",
+        "email": "Stewart58@yahoo.com",
+        "firstName": "Helene",
+        "lastName": "Berge",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/986.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "parking_space": [
+      {
+        "id": "1bedab82-1463-48cc-83c6-c19bc7313acd",
+        "location": "Parking Lot A",
+        "size": 23619,
+        "availability_times": "8:00 AM - 6:00 PM",
+        "restrictions": "No overnight parking",
+        "created_at": "2023-08-24T10:26:09.991Z",
+        "updated_at": "2023-08-25T05:40:43.921Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "78fe7309-c9dc-4eec-834a-20bdd02c7453",
+        "location": "Garage B",
+        "size": 35998,
+        "availability_times": "24/7",
+        "restrictions": "Reserved for employees only",
+        "created_at": "2023-08-24T11:47:56.680Z",
+        "updated_at": "2023-08-25T07:19:42.246Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7da542a8-390a-466f-ae4a-2e3766f42adc",
+        "location": "Street C",
+        "size": 13310,
+        "availability_times": "9:00 AM - 5:00 PM",
+        "restrictions": "Maximum 2-hour parking",
+        "created_at": "2023-08-25T06:06:51.413Z",
+        "updated_at": "2023-08-25T03:47:42.711Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e310a428-191b-403b-9666-cbd8698b0ad8",
+        "location": "Parking Structure D",
+        "size": 83675,
+        "availability_times": "7:00 AM - 9:00 PM",
+        "restrictions": "No parking on weekends",
+        "created_at": "2023-08-24T16:42:54.016Z",
+        "updated_at": "2023-08-24T16:38:39.166Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e51444bd-9280-49cd-8e3a-ecb8ad04e535",
+        "location": "Open Field E",
+        "size": 52255,
+        "availability_times": "6:00 AM - 10:00 PM",
+        "restrictions": "No parking on holidays",
+        "created_at": "2023-08-24T17:16:57.586Z",
+        "updated_at": "2023-08-25T07:34:32.039Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "business": [
+      {
+        "id": "0f62c47c-99ce-476e-879d-974ee4aae9ba",
+        "name": "ABC Restaurant",
+        "address": "123 Main Street",
+        "contact_number": "(123) 456-7890",
+        "created_at": "2023-08-25T05:55:47.490Z",
+        "updated_at": "2023-08-25T07:56:45.101Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "12aeb89d-6514-4497-8a9a-795612ab7479",
+        "name": "XYZ Cafe",
+        "address": "456 Elm Avenue",
+        "contact_number": "(987) 654-3210",
+        "created_at": "2023-08-24T16:12:06.141Z",
+        "updated_at": "2023-08-24T11:57:23.583Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "908e5933-d605-438b-949a-c7dbba3d57e3",
+        "name": "123 Bakery",
+        "address": "789 Oak Lane",
+        "contact_number": "(555) 123-4567",
+        "created_at": "2023-08-24T20:57:31.884Z",
+        "updated_at": "2023-08-25T00:44:55.051Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f587460f-e9d9-4ea2-9b71-d7dd8c7f0efb",
+        "name": "Acme Store",
+        "address": "321 Pine Road",
+        "contact_number": "(999) 888-7777",
+        "created_at": "2023-08-25T06:35:03.851Z",
+        "updated_at": "2023-08-25T08:27:36.814Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7fce9fae-a4d1-4e27-bd0a-989442509598",
+        "name": "Global Market",
+        "address": "654 Maple Drive",
+        "contact_number": "(444) 333-2222",
+        "created_at": "2023-08-25T07:50:21.027Z",
+        "updated_at": "2023-08-25T07:14:42.518Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "40851ff1-071b-443f-a3e3-68d087c057c2",
+        "start_time": "2023-08-25T04:19:48.625Z",
+        "end_time": "2023-08-24T10:09:35.640Z",
+        "created_at": "2023-08-25T01:11:59.058Z",
+        "updated_at": "2023-08-25T07:16:45.897Z",
+        "parking_space_id": "7da542a8-390a-466f-ae4a-2e3766f42adc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b6639e8-4424-4f81-8df3-55aecf7379c6",
+        "start_time": "2023-08-25T04:21:12.881Z",
+        "end_time": "2023-08-25T08:51:10.726Z",
+        "created_at": "2023-08-25T09:28:14.067Z",
+        "updated_at": "2023-08-24T15:47:48.914Z",
+        "parking_space_id": "78fe7309-c9dc-4eec-834a-20bdd02c7453",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "828ab3c0-752b-49c6-a0dc-f51191f8e032",
+        "start_time": "2023-08-24T10:20:56.329Z",
+        "end_time": "2023-08-24T14:24:15.409Z",
+        "created_at": "2023-08-24T11:18:16.497Z",
+        "updated_at": "2023-08-25T04:10:30.490Z",
+        "parking_space_id": "e310a428-191b-403b-9666-cbd8698b0ad8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8db6e32f-7230-4c9e-b33a-a2b099f23c19",
+        "start_time": "2023-08-25T05:06:08.576Z",
+        "end_time": "2023-08-24T18:00:55.973Z",
+        "created_at": "2023-08-24T15:33:40.060Z",
+        "updated_at": "2023-08-24T15:58:00.694Z",
+        "parking_space_id": "e51444bd-9280-49cd-8e3a-ecb8ad04e535",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca83c5d9-39a6-47c5-8bbe-eaa52de1bb94",
+        "start_time": "2023-08-25T00:18:32.756Z",
+        "end_time": "2023-08-25T03:51:09.136Z",
+        "created_at": "2023-08-24T14:16:36.693Z",
+        "updated_at": "2023-08-24T15:21:08.403Z",
+        "parking_space_id": "7da542a8-390a-466f-ae4a-2e3766f42adc",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4bb70969-87ee-46cb-8f9a-4e587f4936c6",
+        "email": "Maye16@yahoo.com",
+        "firstName": "Sydnee",
+        "lastName": "Brown",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64129837",
+        "tenantId": null
+      },
+      {
+        "reference": "1dd530cf-a25f-4200-97cf-556bc673ef50",
+        "email": "Jayda.Spencer89@gmail.com",
+        "firstName": "Cleora",
+        "lastName": "Witting",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36651407",
+        "tenantId": null
+      },
+      {
+        "reference": "3df15a7c-a7a1-4666-a0fe-7f3deaa23f27",
+        "email": "Cristina14@hotmail.com",
+        "firstName": "Mckenna",
+        "lastName": "Keebler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67015643",
+        "tenantId": null
+      },
+      {
+        "reference": "19ba5aa9-6725-4d77-a90a-0f3a8a30c33d",
+        "email": "Daryl29@hotmail.com",
+        "firstName": "Vicky",
+        "lastName": "Quigley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/322.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a94ad853-2aa2-450c-b13e-f0d0c3a4336c",
+        "email": "Waylon_Oberbrunner72@gmail.com",
+        "firstName": "Ricky",
+        "lastName": "Hegmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/536.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "parking_space": [
+      {
+        "id": "2cc5bf14-eda2-48d7-a0a2-cbeb0bd89f60",
+        "location": "123 Main Street",
+        "size": 53778,
+        "availability_times": "8am - 6pm",
+        "restrictions": "No overnight parking",
+        "created_at": "2023-08-25T05:58:26.315Z",
+        "updated_at": "2023-08-25T00:45:40.331Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "124291f3-e9a9-4922-9a9a-a96b521cdcc7",
+        "location": "456 Elm Avenue",
+        "size": 46662,
+        "availability_times": "9am - 5pm",
+        "restrictions": "Reserved for employees only",
+        "created_at": "2023-08-25T05:42:10.953Z",
+        "updated_at": "2023-08-24T10:26:49.955Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "12876636-e190-4c09-88c5-98dfb43d0eaf",
+        "location": "789 Oak Lane",
+        "size": 38996,
+        "availability_times": "10am - 4pm",
+        "restrictions": "No parking on weekends",
+        "created_at": "2023-08-24T12:18:49.899Z",
+        "updated_at": "2023-08-24T21:17:16.997Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3f982861-8c3d-49a3-8b84-2c00524d0941",
+        "location": "321 Pine Road",
+        "size": 59378,
+        "availability_times": "7am - 7pm",
+        "restrictions": "2-hour maximum parking",
+        "created_at": "2023-08-24T21:38:26.996Z",
+        "updated_at": "2023-08-25T08:54:58.695Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "41f646a8-2d04-417a-91ed-95ce8c541952",
+        "location": "654 Maple Drive",
+        "size": 51383,
+        "availability_times": "6am - 8pm",
+        "restrictions": "Permit required",
+        "created_at": "2023-08-25T01:42:04.298Z",
+        "updated_at": "2023-08-24T16:54:24.802Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "business": [
+      {
+        "id": "b4b82d32-2640-42fa-a79d-d326da11487b",
+        "name": "ABC Bakery",
+        "address": "789 Main Street",
+        "contact_number": "123-456-7890",
+        "created_at": "2023-08-24T19:44:28.541Z",
+        "updated_at": "2023-08-24T23:08:12.832Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "deadcbfc-56d1-4b03-8e10-0f505d7620c5",
+        "name": "XYZ Pharmacy",
+        "address": "456 Elm Avenue",
+        "contact_number": "987-654-3210",
+        "created_at": "2023-08-24T09:58:40.943Z",
+        "updated_at": "2023-08-25T02:55:35.155Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4fd7e460-047c-4ca7-bab8-bb5eaa95aadf",
+        "name": "Sunset Restaurant",
+        "address": "123 Oak Lane",
+        "contact_number": "555-123-4567",
+        "created_at": "2023-08-24T12:19:00.829Z",
+        "updated_at": "2023-08-24T18:04:57.794Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "797dd8d3-96bd-41b0-a9d2-6fed9fc08f63",
+        "name": "City Hardware Store",
+        "address": "654 Pine Road",
+        "contact_number": "888-999-0000",
+        "created_at": "2023-08-25T05:52:26.533Z",
+        "updated_at": "2023-08-25T09:53:33.518Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c09f17ff-979e-470e-bfcc-dd9f68dac624",
+        "name": "Green Thumb Garden Center",
+        "address": "321 Maple Drive",
+        "contact_number": "111-222-3333",
+        "created_at": "2023-08-24T18:46:33.924Z",
+        "updated_at": "2023-08-24T19:50:52.688Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "497b2aac-40fa-4168-8bba-aae57fd3e74c",
+        "start_time": "2023-08-25T07:22:30.929Z",
+        "end_time": "2023-08-25T06:40:17.298Z",
+        "created_at": "2023-08-25T06:33:25.919Z",
+        "updated_at": "2023-08-24T10:19:06.033Z",
+        "parking_space_id": "124291f3-e9a9-4922-9a9a-a96b521cdcc7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "880de687-5087-4d09-8cb3-ffd19c7e16d1",
+        "start_time": "2023-08-25T01:43:05.463Z",
+        "end_time": "2023-08-24T11:30:20.099Z",
+        "created_at": "2023-08-24T12:02:31.022Z",
+        "updated_at": "2023-08-24T17:07:44.607Z",
+        "parking_space_id": "2cc5bf14-eda2-48d7-a0a2-cbeb0bd89f60",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "375b7933-ab03-4f50-bd2a-28e9313ca957",
+        "start_time": "2023-08-25T04:12:30.640Z",
+        "end_time": "2023-08-24T23:00:55.259Z",
+        "created_at": "2023-08-25T00:21:39.045Z",
+        "updated_at": "2023-08-24T22:55:07.745Z",
+        "parking_space_id": "12876636-e190-4c09-88c5-98dfb43d0eaf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "19cec3e7-9fe6-42df-b69e-82899b25b2d7",
+        "start_time": "2023-08-24T12:20:58.901Z",
+        "end_time": "2023-08-25T01:02:33.702Z",
+        "created_at": "2023-08-24T15:07:34.641Z",
+        "updated_at": "2023-08-24T20:17:37.098Z",
+        "parking_space_id": "124291f3-e9a9-4922-9a9a-a96b521cdcc7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2e4cf225-0299-46b5-a3f1-2f8aaf3b9ded",
+        "start_time": "2023-08-25T06:23:50.346Z",
+        "end_time": "2023-08-25T07:49:58.523Z",
+        "created_at": "2023-08-24T19:09:32.526Z",
+        "updated_at": "2023-08-25T08:09:08.063Z",
+        "parking_space_id": "12876636-e190-4c09-88c5-98dfb43d0eaf",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7b8f0346-e7f1-45ce-b620-dba0bd83ec9e",
+        "email": "Trystan71@hotmail.com",
+        "firstName": "Jeffrey",
+        "lastName": "Harvey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/918.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "abd2ef0d-f440-4b02-817f-b765259c382f",
+        "email": "Geraldine.Hyatt47@gmail.com",
+        "firstName": "Destany",
+        "lastName": "Smith",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48518166",
+        "tenantId": null
+      },
+      {
+        "reference": "3295ccd0-63a6-4322-aa48-285d8f0cc716",
+        "email": "Krista_Monahan@hotmail.com",
+        "firstName": "Rachelle",
+        "lastName": "Emmerich-Homenick",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/418.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "57936bde-5b5e-4bce-8664-af7685dd7ba6",
+        "email": "Brooks.Roberts75@hotmail.com",
+        "firstName": "Linnea",
+        "lastName": "Reichel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/655.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e5dc964d-f360-472d-9324-b88a00f48b7d",
+        "email": "Beatrice.McLaughlin44@yahoo.com",
+        "firstName": "Stuart",
+        "lastName": "Herman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42655400",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "parking_space": [
+      {
+        "id": "d40bec91-62ce-4586-b057-80b929e2a48f",
+        "location": "Parking Lot A",
+        "size": 15857,
+        "availability_times": "9:00 AM - 5:00 PM",
+        "restrictions": "No overnight parking",
+        "created_at": "2023-08-24T11:44:16.001Z",
+        "updated_at": "2023-08-24T13:33:23.364Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cf1c22cb-04dd-4521-8c68-9b49183edd81",
+        "location": "Underground Garage B",
+        "size": 70806,
+        "availability_times": "24/7",
+        "restrictions": "Reserved for employees only",
+        "created_at": "2023-08-25T08:12:52.462Z",
+        "updated_at": "2023-08-24T20:29:35.255Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "44596851-9c99-4173-b9f5-9147afa5127a",
+        "location": "Street Parking C",
+        "size": 34847,
+        "availability_times": "8:00 AM - 6:00 PM",
+        "restrictions": "Maximum 2-hour parking",
+        "created_at": "2023-08-24T20:40:24.965Z",
+        "updated_at": "2023-08-24T22:31:39.778Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "63055373-0ad4-4369-8278-8047551cec5f",
+        "location": "Open Field D",
+        "size": 70385,
+        "availability_times": "7:00 AM - 9:00 PM",
+        "restrictions": "No parking on weekends",
+        "created_at": "2023-08-24T10:21:05.116Z",
+        "updated_at": "2023-08-25T00:15:57.934Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4eacbc44-fe6b-4a06-b843-dfd5537aa4dc",
+        "location": "Multi-Level Parking E",
+        "size": 84439,
+        "availability_times": "6:00 AM - 10:00 PM",
+        "restrictions": "Permit required",
+        "created_at": "2023-08-24T19:30:02.063Z",
+        "updated_at": "2023-08-24T13:04:01.844Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "business": [
+      {
+        "id": "e40a8951-01a5-44cf-b649-d03b22351e18",
+        "name": "ABC Bakery",
+        "address": "123 Main Street",
+        "contact_number": "555-1234",
+        "created_at": "2023-08-25T00:08:56.426Z",
+        "updated_at": "2023-08-25T03:28:18.305Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b61adf8f-5785-45cc-8cee-639f392f4ee8",
+        "name": "XYZ Plumbing",
+        "address": "456 Elm Avenue",
+        "contact_number": "555-5678",
+        "created_at": "2023-08-25T07:23:45.726Z",
+        "updated_at": "2023-08-24T15:53:40.314Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "323d5f1b-1d12-455c-96cd-977898573c54",
+        "name": "123 Salon",
+        "address": "789 Oak Drive",
+        "contact_number": "555-9012",
+        "created_at": "2023-08-24T15:02:47.735Z",
+        "updated_at": "2023-08-24T23:45:43.801Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a84080b-24c5-40d1-ad12-c894ec8a5a6b",
+        "name": "Acme Construction",
+        "address": "10 Maple Lane",
+        "contact_number": "555-3456",
+        "created_at": "2023-08-25T01:40:22.667Z",
+        "updated_at": "2023-08-25T05:40:33.600Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e7e29f3-3353-4f92-80b5-efe070cfb2f6",
+        "name": "Sunny Days Cafe",
+        "address": "555 Pine Road",
+        "contact_number": "555-7890",
+        "created_at": "2023-08-25T02:11:43.002Z",
+        "updated_at": "2023-08-24T16:54:21.819Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "0116e09d-6bd7-4d06-9329-3726e45e1ede",
+        "start_time": "2023-08-25T04:12:34.483Z",
+        "end_time": "2023-08-25T02:14:17.740Z",
+        "created_at": "2023-08-25T00:29:50.401Z",
+        "updated_at": "2023-08-25T08:09:10.492Z",
+        "parking_space_id": "d40bec91-62ce-4586-b057-80b929e2a48f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "156677d1-2222-422c-aad1-25f3b2677bcf",
+        "start_time": "2023-08-25T01:07:25.314Z",
+        "end_time": "2023-08-24T12:05:38.441Z",
+        "created_at": "2023-08-24T19:15:01.076Z",
+        "updated_at": "2023-08-24T13:11:39.926Z",
+        "parking_space_id": "cf1c22cb-04dd-4521-8c68-9b49183edd81",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8fabc9ec-ac9c-480a-a8c3-8a6fd751816f",
+        "start_time": "2023-08-24T18:32:55.376Z",
+        "end_time": "2023-08-25T04:53:34.693Z",
+        "created_at": "2023-08-24T13:04:15.191Z",
+        "updated_at": "2023-08-24T23:45:15.500Z",
+        "parking_space_id": "44596851-9c99-4173-b9f5-9147afa5127a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e38de5d6-1bb8-486a-9fc2-5a2641073307",
+        "start_time": "2023-08-25T04:23:21.189Z",
+        "end_time": "2023-08-24T11:16:07.484Z",
+        "created_at": "2023-08-25T05:16:22.094Z",
+        "updated_at": "2023-08-25T02:41:21.967Z",
+        "parking_space_id": "4eacbc44-fe6b-4a06-b843-dfd5537aa4dc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "deb97b88-aea4-4592-be16-c4db60c1ad18",
+        "start_time": "2023-08-25T04:16:25.387Z",
+        "end_time": "2023-08-25T07:07:57.038Z",
+        "created_at": "2023-08-25T00:17:08.382Z",
+        "updated_at": "2023-08-25T08:30:28.979Z",
+        "parking_space_id": "44596851-9c99-4173-b9f5-9147afa5127a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d79657c8-4fb2-4230-b46d-f445ec52b55d",
+        "email": "Barry_Cruickshank30@hotmail.com",
+        "firstName": "Charlotte",
+        "lastName": "Bins",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/77.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e114993e-3716-401b-a219-aa7c7aad4fff",
+        "email": "Stephan82@gmail.com",
+        "firstName": "Enoch",
+        "lastName": "Lind-O'Hara",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1091.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9495c407-ea09-4748-b3d1-7a23b5d9f804",
+        "email": "Coby20@yahoo.com",
+        "firstName": "Orrin",
+        "lastName": "Lehner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1180.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b1b2891b-23b3-4b36-b670-895e443ceaae",
+        "email": "Armani8@gmail.com",
+        "firstName": "Lavern",
+        "lastName": "Lindgren",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/179.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3b81c78e-681a-499d-aa48-e78aef9e01c7",
+        "email": "Mavis.Oberbrunner69@yahoo.com",
+        "firstName": "Lonzo",
+        "lastName": "Roberts",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21825606",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "parking_space": [
+      {
+        "id": "b580b33a-61ea-4353-810d-fba5f4673223",
+        "location": "Parking Lot A",
+        "size": 25749,
+        "availability_times": "9:00 AM - 5:00 PM",
+        "restrictions": "No overnight parking",
+        "created_at": "2023-08-24T17:34:12.195Z",
+        "updated_at": "2023-08-25T06:16:06.860Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "06097a80-1d58-4370-8969-3521d019c4c0",
+        "location": "Garage B",
+        "size": 28082,
+        "availability_times": "24/7",
+        "restrictions": "Reserved for employees only",
+        "created_at": "2023-08-24T20:05:10.768Z",
+        "updated_at": "2023-08-24T14:00:33.299Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d834bd4c-1da7-4a76-98b4-03b7c71b2da7",
+        "location": "Street Parking C",
+        "size": 31083,
+        "availability_times": "8:00 AM - 6:00 PM",
+        "restrictions": "No parking on Sundays",
+        "created_at": "2023-08-24T19:34:00.810Z",
+        "updated_at": "2023-08-24T20:55:58.620Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b4c96ec9-6aca-413f-b3a6-01ba58c6ef7e",
+        "location": "Underground Parking D",
+        "size": 4828,
+        "availability_times": "7:00 AM - 10:00 PM",
+        "restrictions": "2-hour parking limit",
+        "created_at": "2023-08-24T21:48:30.935Z",
+        "updated_at": "2023-08-24T23:29:39.901Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "baaff2ac-81c2-4553-bc42-719aed2f23ff",
+        "location": "Open Field E",
+        "size": 62520,
+        "availability_times": "6:00 AM - 9:00 PM",
+        "restrictions": "Permit required",
+        "created_at": "2023-08-25T05:07:38.372Z",
+        "updated_at": "2023-08-24T13:55:37.540Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "business": [
+      {
+        "id": "82e06dd2-0431-44fb-9202-a99bfa72d8d3",
+        "name": "Smith's Bakery",
+        "address": "123 Main Street",
+        "contact_number": "(123) 456-7890",
+        "created_at": "2023-08-24T12:42:16.762Z",
+        "updated_at": "2023-08-25T03:02:21.693Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a0ceafe5-24e1-447e-9191-e72820d71955",
+        "name": "Johnson's Hardware",
+        "address": "456 Elm Avenue",
+        "contact_number": "(987) 654-3210",
+        "created_at": "2023-08-25T03:59:19.272Z",
+        "updated_at": "2023-08-24T22:54:31.209Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e73507c9-d8a2-4714-8f9a-a04b463edaca",
+        "name": "Brown's Auto Repair",
+        "address": "789 Oak Drive",
+        "contact_number": "(111) 222-3333",
+        "created_at": "2023-08-25T08:02:22.007Z",
+        "updated_at": "2023-08-24T10:18:24.690Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "91754c03-04a3-463f-b147-d2dd8d08a0a1",
+        "name": "Miller's Bookstore",
+        "address": "321 Pine Lane",
+        "contact_number": "(444) 555-6666",
+        "created_at": "2023-08-25T00:36:40.623Z",
+        "updated_at": "2023-08-24T11:01:09.291Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7547f208-3e2d-4fa5-97d7-362432091e1b",
+        "name": "Wilson's Cafe",
+        "address": "654 Maple Road",
+        "contact_number": "(777) 888-9999",
+        "created_at": "2023-08-24T22:33:33.869Z",
+        "updated_at": "2023-08-24T14:24:11.249Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "383873db-ad3e-4e78-b2cf-93919661c5ec",
+        "start_time": "2023-08-24T21:17:01.454Z",
+        "end_time": "2023-08-25T00:12:18.249Z",
+        "created_at": "2023-08-25T09:40:45.827Z",
+        "updated_at": "2023-08-24T16:25:33.789Z",
+        "parking_space_id": "d834bd4c-1da7-4a76-98b4-03b7c71b2da7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5eb5b476-a0ad-4482-bf68-150ea1a85d2c",
+        "start_time": "2023-08-25T09:47:37.876Z",
+        "end_time": "2023-08-24T22:27:10.635Z",
+        "created_at": "2023-08-24T12:45:14.817Z",
+        "updated_at": "2023-08-24T17:28:02.788Z",
+        "parking_space_id": "b4c96ec9-6aca-413f-b3a6-01ba58c6ef7e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ecf0c4c-1ab7-4b8f-a818-8807227422f2",
+        "start_time": "2023-08-24T18:24:51.047Z",
+        "end_time": "2023-08-25T00:40:15.076Z",
+        "created_at": "2023-08-24T19:26:25.314Z",
+        "updated_at": "2023-08-24T11:48:08.226Z",
+        "parking_space_id": "06097a80-1d58-4370-8969-3521d019c4c0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "497bfe31-22fe-4c38-8e8f-bbee0dc88630",
+        "start_time": "2023-08-25T03:36:58.172Z",
+        "end_time": "2023-08-25T04:56:42.028Z",
+        "created_at": "2023-08-25T00:14:10.206Z",
+        "updated_at": "2023-08-24T16:46:32.089Z",
+        "parking_space_id": "06097a80-1d58-4370-8969-3521d019c4c0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e22a45d-5c34-4b43-b79b-dcbd4e28e22c",
+        "start_time": "2023-08-24T13:59:39.073Z",
+        "end_time": "2023-08-24T20:46:18.468Z",
+        "created_at": "2023-08-24T10:07:20.656Z",
+        "updated_at": "2023-08-25T01:37:53.286Z",
+        "parking_space_id": "b580b33a-61ea-4353-810d-fba5f4673223",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "97c59625-f971-4398-a48a-5eed9292746a",
+        "email": "Horace.Collins2@yahoo.com",
+        "firstName": "Liam",
+        "lastName": "Quigley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11751822",
+        "tenantId": null
+      },
+      {
+        "reference": "659cfcff-3e7c-4013-9645-942ed8bbbb32",
+        "email": "Sally.Shanahan44@gmail.com",
+        "firstName": "Steve",
+        "lastName": "Cremin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55528113",
+        "tenantId": null
+      },
+      {
+        "reference": "de68ed5b-87de-4779-9d63-070f305b447c",
+        "email": "Boyd92@hotmail.com",
+        "firstName": "Gus",
+        "lastName": "Keeling-Fahey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/339.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "25b4db74-b1c2-47e9-9b3e-d07659283dd5",
+        "email": "Hertha_Grady@yahoo.com",
+        "firstName": "Reina",
+        "lastName": "Sporer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1048.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6f398ff1-c4f6-4e09-bf32-eb7e010ebcb3",
+        "email": "Aric.Batz38@yahoo.com",
+        "firstName": "Erling",
+        "lastName": "Hintz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/208.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "parking_space": [
+      {
+        "id": "43f2f571-ebaa-4d6b-ab0c-68b13bc271b8",
+        "location": "Building A",
+        "size": 66073,
+        "availability_times": "8am - 6pm",
+        "restrictions": "No overnight parking",
+        "created_at": "2023-08-24T13:29:41.790Z",
+        "updated_at": "2023-08-24T20:16:24.085Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c8e2b65a-cee3-42cf-9582-dcdeacc917ad",
+        "location": "Parking Lot B",
+        "size": 58295,
+        "availability_times": "24/7",
+        "restrictions": "Reserved for employees only",
+        "created_at": "2023-08-24T13:52:49.263Z",
+        "updated_at": "2023-08-24T12:32:46.997Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a7938a0f-e528-4d20-bea6-d4e0683ca83f",
+        "location": "Garage C",
+        "size": 84091,
+        "availability_times": "9am - 5pm",
+        "restrictions": "No parking on weekends",
+        "created_at": "2023-08-24T11:03:20.080Z",
+        "updated_at": "2023-08-25T04:00:45.228Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a0e62af2-c66c-4707-9d5b-ff46c5285a79",
+        "location": "Street D",
+        "size": 88387,
+        "availability_times": "7am - 9pm",
+        "restrictions": "Maximum 2-hour parking",
+        "created_at": "2023-08-24T21:42:54.317Z",
+        "updated_at": "2023-08-24T22:05:32.811Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c7d656d5-3aa5-4d3c-9e8c-fa325dc986ad",
+        "location": "Open Field E",
+        "size": 42389,
+        "availability_times": "6am - 10pm",
+        "restrictions": "No parking on public holidays",
+        "created_at": "2023-08-25T01:21:00.118Z",
+        "updated_at": "2023-08-25T03:21:54.672Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "business": [
+      {
+        "id": "0f792797-9bbf-4943-b193-310865914eff",
+        "name": "ABC Restaurant",
+        "address": "123 Main Street",
+        "contact_number": "(123) 456-7890",
+        "created_at": "2023-08-24T20:56:26.905Z",
+        "updated_at": "2023-08-25T08:00:46.267Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0597255-fce8-49a1-9565-bfb624560118",
+        "name": "XYZ Store",
+        "address": "456 Elm Avenue",
+        "contact_number": "(987) 654-3210",
+        "created_at": "2023-08-25T00:33:42.436Z",
+        "updated_at": "2023-08-24T23:48:08.774Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d6a30177-236b-4048-b050-193432d92e8e",
+        "name": "123 Bakery",
+        "address": "789 Oak Drive",
+        "contact_number": "(555) 123-4567",
+        "created_at": "2023-08-25T08:11:41.016Z",
+        "updated_at": "2023-08-25T06:14:46.834Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b9d8544a-64fc-4f3c-b2f4-fc757f33123a",
+        "name": "Acme Pharmacy",
+        "address": "10 Pine Lane",
+        "contact_number": "(999) 888-7777",
+        "created_at": "2023-08-24T22:20:01.674Z",
+        "updated_at": "2023-08-24T10:33:43.153Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "70f05006-6530-4910-859c-53b2661f8255",
+        "name": "Global Gym",
+        "address": "555 Maple Road",
+        "contact_number": "(111) 222-3333",
+        "created_at": "2023-08-25T06:15:53.651Z",
+        "updated_at": "2023-08-25T09:45:29.149Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "a712851c-4f53-47e5-b3fd-5c80e8fc8bc3",
+        "start_time": "2023-08-25T03:24:05.826Z",
+        "end_time": "2023-08-24T22:49:03.401Z",
+        "created_at": "2023-08-24T18:42:30.035Z",
+        "updated_at": "2023-08-25T00:47:31.519Z",
+        "parking_space_id": "c8e2b65a-cee3-42cf-9582-dcdeacc917ad",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46d23972-9625-486b-b078-bcf9a61dbb63",
+        "start_time": "2023-08-24T16:04:12.155Z",
+        "end_time": "2023-08-24T15:19:09.604Z",
+        "created_at": "2023-08-25T00:20:02.239Z",
+        "updated_at": "2023-08-24T14:00:39.134Z",
+        "parking_space_id": "a7938a0f-e528-4d20-bea6-d4e0683ca83f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "18294b9b-6c5f-43d9-a498-0ac0154e72d0",
+        "start_time": "2023-08-24T17:04:27.065Z",
+        "end_time": "2023-08-25T03:36:07.927Z",
+        "created_at": "2023-08-25T04:37:22.400Z",
+        "updated_at": "2023-08-25T07:38:01.278Z",
+        "parking_space_id": "a7938a0f-e528-4d20-bea6-d4e0683ca83f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f37134e-c9c2-4a93-a5fb-931b639041fd",
+        "start_time": "2023-08-24T22:44:29.249Z",
+        "end_time": "2023-08-24T10:57:42.426Z",
+        "created_at": "2023-08-24T20:23:38.378Z",
+        "updated_at": "2023-08-24T15:48:40.977Z",
+        "parking_space_id": "a7938a0f-e528-4d20-bea6-d4e0683ca83f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "540500ef-e515-423d-9166-d3940b234922",
+        "start_time": "2023-08-24T14:00:21.272Z",
+        "end_time": "2023-08-25T05:03:31.212Z",
+        "created_at": "2023-08-24T13:59:24.264Z",
+        "updated_at": "2023-08-24T18:34:27.037Z",
+        "parking_space_id": "c8e2b65a-cee3-42cf-9582-dcdeacc917ad",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c28d3afe-4a7b-4259-8677-c730f5c13a64",
+        "email": "Dillon83@yahoo.com",
+        "firstName": "Noemie",
+        "lastName": "Walter",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1082.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "df7bee83-45d8-4aeb-8907-8eaced3a0efc",
+        "email": "Dayne_OConnell@hotmail.com",
+        "firstName": "Maya",
+        "lastName": "Zieme",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/262.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "194d2668-12fa-4369-9c38-95d8c1790ff3",
+        "email": "Carey_Collier@hotmail.com",
+        "firstName": "Heather",
+        "lastName": "Kuphal",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/603.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "20d7738b-feb6-4049-ae8a-f4fa1728c085",
+        "email": "Riley34@yahoo.com",
+        "firstName": "Brennan",
+        "lastName": "Trantow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/50.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b7a3ac72-5334-4ecf-baac-28b9d2f0a2f0",
+        "email": "Nina.Wisoky24@yahoo.com",
+        "firstName": "Dale",
+        "lastName": "Streich-Pouros",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12382748",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "parking_space": [
+      {
+        "id": "1e04e0dc-320e-446b-8e30-06cfa32f3374",
+        "location": "Parking Lot A",
+        "size": 11023,
+        "availability_times": "9:00 AM - 5:00 PM",
+        "restrictions": "No overnight parking",
+        "created_at": "2023-08-24T11:11:54.870Z",
+        "updated_at": "2023-08-24T11:03:44.349Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "64255896-5ba7-4d32-aabb-acb9614c7eb6",
+        "location": "Garage B",
+        "size": 50558,
+        "availability_times": "24/7",
+        "restrictions": "Maximum 2-hour parking",
+        "created_at": "2023-08-24T13:04:32.850Z",
+        "updated_at": "2023-08-24T10:13:14.487Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ca777946-aaa2-4334-a736-b5ce7ab4db01",
+        "location": "Street Parking C",
+        "size": 96262,
+        "availability_times": "8:00 AM - 6:00 PM",
+        "restrictions": "Permit required",
+        "created_at": "2023-08-24T20:44:03.426Z",
+        "updated_at": "2023-08-24T19:08:27.198Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "76b45390-aee3-426d-9a89-6f427af4f784",
+        "location": "Underground Parking D",
+        "size": 2307,
+        "availability_times": "7:00 AM - 10:00 PM",
+        "restrictions": "No parking on Sundays",
+        "created_at": "2023-08-24T13:59:21.806Z",
+        "updated_at": "2023-08-24T23:44:45.839Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "23941ffb-a9f8-48e8-bd84-79fbada361b3",
+        "location": "Open Field E",
+        "size": 39868,
+        "availability_times": "6:00 AM - 9:00 PM",
+        "restrictions": "No parking during rush hour",
+        "created_at": "2023-08-25T02:23:57.555Z",
+        "updated_at": "2023-08-25T09:54:59.731Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "business": [
+      {
+        "id": "6812bea4-a7c1-4aef-992f-b038a7258c94",
+        "name": "ABC Restaurant",
+        "address": "123 Main Street",
+        "contact_number": "555-1234",
+        "created_at": "2023-08-24T12:51:59.723Z",
+        "updated_at": "2023-08-25T08:04:28.233Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24bd1a7f-923e-483c-9ec4-977a266e969b",
+        "name": "XYZ Store",
+        "address": "456 Elm Avenue",
+        "contact_number": "555-5678",
+        "created_at": "2023-08-24T20:39:44.341Z",
+        "updated_at": "2023-08-25T09:49:00.884Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "28d3b2d8-cdd4-40c6-9055-2e753eb9188b",
+        "name": "123 Bakery",
+        "address": "789 Oak Lane",
+        "contact_number": "555-9012",
+        "created_at": "2023-08-24T18:10:56.059Z",
+        "updated_at": "2023-08-24T16:13:15.764Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d053b44-d51c-4cdb-9836-30f8cb0f2d7b",
+        "name": "Acme Pharmacy",
+        "address": "321 Pine Road",
+        "contact_number": "555-3456",
+        "created_at": "2023-08-25T09:51:56.277Z",
+        "updated_at": "2023-08-25T04:55:40.979Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f62cad8c-9595-4487-8019-3f767d32a19f",
+        "name": "Global Salon",
+        "address": "654 Maple Drive",
+        "contact_number": "555-7890",
+        "created_at": "2023-08-25T06:50:25.365Z",
+        "updated_at": "2023-08-24T21:56:36.887Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "a7dfb28a-96ab-42e6-9cca-257255075c0e",
+        "start_time": "2023-08-25T06:10:46.561Z",
+        "end_time": "2023-08-25T06:00:31.836Z",
+        "created_at": "2023-08-25T06:16:35.296Z",
+        "updated_at": "2023-08-25T09:42:08.446Z",
+        "parking_space_id": "ca777946-aaa2-4334-a736-b5ce7ab4db01",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "30e08824-c4f1-438d-b705-aa38456c34ea",
+        "start_time": "2023-08-24T13:45:05.174Z",
+        "end_time": "2023-08-24T21:42:42.821Z",
+        "created_at": "2023-08-24T11:48:58.058Z",
+        "updated_at": "2023-08-24T18:44:08.163Z",
+        "parking_space_id": "ca777946-aaa2-4334-a736-b5ce7ab4db01",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "719c341c-2767-4f11-ad26-3027ba386e90",
+        "start_time": "2023-08-24T14:20:45.050Z",
+        "end_time": "2023-08-24T23:24:33.672Z",
+        "created_at": "2023-08-25T04:31:58.325Z",
+        "updated_at": "2023-08-24T15:00:55.115Z",
+        "parking_space_id": "1e04e0dc-320e-446b-8e30-06cfa32f3374",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a53bd5f2-3ab6-4f6c-9b8b-dcf930c75dee",
+        "start_time": "2023-08-24T19:29:11.961Z",
+        "end_time": "2023-08-24T17:21:43.565Z",
+        "created_at": "2023-08-25T02:39:56.719Z",
+        "updated_at": "2023-08-24T15:41:18.828Z",
+        "parking_space_id": "64255896-5ba7-4d32-aabb-acb9614c7eb6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "29a00296-74d1-4932-8310-ee2bb44657d1",
+        "start_time": "2023-08-25T04:25:14.468Z",
+        "end_time": "2023-08-25T07:55:18.867Z",
+        "created_at": "2023-08-24T20:45:46.216Z",
+        "updated_at": "2023-08-25T03:19:29.704Z",
+        "parking_space_id": "76b45390-aee3-426d-9a89-6f427af4f784",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "449082a3-a34b-4c43-8b69-599e4b11b487",
+        "email": "Hilbert.Pacocha@yahoo.com",
+        "firstName": "Eldora",
+        "lastName": "Schowalter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51997984",
+        "tenantId": null
+      },
+      {
+        "reference": "e2f5bd70-77a3-4226-b158-2e8afdea8289",
+        "email": "Walker_Koelpin@gmail.com",
+        "firstName": "Ephraim",
+        "lastName": "Murazik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17315426",
+        "tenantId": null
+      },
+      {
+        "reference": "6bcb26cb-a37a-4d2d-9087-9308ca4d2ef4",
+        "email": "Kacey_Kuhlman@yahoo.com",
+        "firstName": "Domenic",
+        "lastName": "Baumbach",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1125.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "11080c55-03c7-44de-9308-5e8daff2efd4",
+        "email": "Roxanne_Hodkiewicz84@hotmail.com",
+        "firstName": "Prince",
+        "lastName": "Beatty",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/632.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6a44e520-52cc-4979-a2ff-dd11b8957aee",
+        "email": "Cleora.Medhurst78@gmail.com",
+        "firstName": "Barney",
+        "lastName": "Oberbrunner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18745948",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "parking_space": [
+      {
+        "id": "af507ff1-2ba2-46c5-bcfc-1eb92a4f4e45",
+        "location": "Parking lot A",
+        "size": 69849,
+        "availability_times": "9:00 AM - 5:00 PM",
+        "restrictions": "No overnight parking",
+        "created_at": "2023-08-24T23:43:59.553Z",
+        "updated_at": "2023-08-25T08:07:46.297Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f171af73-1b8f-4fb9-bd61-f2c783e0d519",
+        "location": "Parking garage B",
+        "size": 65298,
+        "availability_times": "24/7",
+        "restrictions": "Maximum 2 hours parking",
+        "created_at": "2023-08-25T05:24:36.344Z",
+        "updated_at": "2023-08-24T11:05:22.194Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6e5a0611-db26-48f5-869f-0a302d8cee7f",
+        "location": "Street parking C",
+        "size": 75044,
+        "availability_times": "8:00 AM - 6:00 PM",
+        "restrictions": "Reserved for employees only",
+        "created_at": "2023-08-24T12:03:52.105Z",
+        "updated_at": "2023-08-25T07:39:38.874Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d1e4a308-2f78-4bcf-9871-340a2c5ff212",
+        "location": "Underground parking D",
+        "size": 31668,
+        "availability_times": "7:00 AM - 10:00 PM",
+        "restrictions": "No parking on weekends",
+        "created_at": "2023-08-24T12:11:41.475Z",
+        "updated_at": "2023-08-25T09:15:30.572Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "775f9d21-ba27-4e8a-a2bd-3c3e26d7ebcf",
+        "location": "Open field parking E",
+        "size": 71721,
+        "availability_times": "6:00 AM - 9:00 PM",
+        "restrictions": "No parking on public holidays",
+        "created_at": "2023-08-24T17:09:37.780Z",
+        "updated_at": "2023-08-24T16:54:08.955Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "business": [
+      {
+        "id": "b56e9807-b09b-4ce3-af62-419d948f871c",
+        "name": "ABC Cafe",
+        "address": "123 Main Street",
+        "contact_number": "(123) 456-7890",
+        "created_at": "2023-08-24T16:39:37.427Z",
+        "updated_at": "2023-08-25T00:43:31.353Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "39352a31-5135-4823-b02b-ca41d237241b",
+        "name": "XYZ Store",
+        "address": "456 Elm Avenue",
+        "contact_number": "(987) 654-3210",
+        "created_at": "2023-08-25T03:40:40.986Z",
+        "updated_at": "2023-08-25T06:01:24.434Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ed4ff78-f8bf-4d57-a864-771f63c454c5",
+        "name": "123 Bakery",
+        "address": "789 Oak Lane",
+        "contact_number": "(555) 123-4567",
+        "created_at": "2023-08-24T16:14:45.533Z",
+        "updated_at": "2023-08-25T01:08:55.268Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bd47b5ae-4173-4e5b-b671-99564d0248c5",
+        "name": "PQR Restaurant",
+        "address": "321 Pine Road",
+        "contact_number": "(888) 999-0000",
+        "created_at": "2023-08-24T16:44:38.616Z",
+        "updated_at": "2023-08-25T07:09:31.970Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4018b3c4-e0b5-4d95-96d2-362495ff4548",
+        "name": "DEF Salon",
+        "address": "654 Maple Drive",
+        "contact_number": "(111) 222-3333",
+        "created_at": "2023-08-25T06:00:17.398Z",
+        "updated_at": "2023-08-24T21:30:11.286Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "03ba7276-1302-4255-84d1-593b1a7e92a9",
+        "start_time": "2023-08-24T23:05:31.218Z",
+        "end_time": "2023-08-24T10:05:15.517Z",
+        "created_at": "2023-08-24T18:53:12.592Z",
+        "updated_at": "2023-08-25T05:12:46.073Z",
+        "parking_space_id": "d1e4a308-2f78-4bcf-9871-340a2c5ff212",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef9c65b5-5252-4667-ad2c-e00128b22aa3",
+        "start_time": "2023-08-25T00:39:58.521Z",
+        "end_time": "2023-08-24T15:35:59.037Z",
+        "created_at": "2023-08-25T09:23:25.702Z",
+        "updated_at": "2023-08-24T23:13:48.912Z",
+        "parking_space_id": "775f9d21-ba27-4e8a-a2bd-3c3e26d7ebcf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3f6584c-9f8e-41b2-9f6b-a20d41c1e280",
+        "start_time": "2023-08-24T21:22:57.006Z",
+        "end_time": "2023-08-24T23:19:53.230Z",
+        "created_at": "2023-08-24T16:17:38.927Z",
+        "updated_at": "2023-08-24T18:45:50.484Z",
+        "parking_space_id": "6e5a0611-db26-48f5-869f-0a302d8cee7f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7ee8937d-2604-4b31-85ea-ae0509b9894a",
+        "start_time": "2023-08-25T03:14:14.564Z",
+        "end_time": "2023-08-25T04:00:00.787Z",
+        "created_at": "2023-08-24T23:46:32.825Z",
+        "updated_at": "2023-08-24T21:30:12.418Z",
+        "parking_space_id": "f171af73-1b8f-4fb9-bd61-f2c783e0d519",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed540f9a-975f-4b9b-a780-cdd508464744",
+        "start_time": "2023-08-25T06:23:21.637Z",
+        "end_time": "2023-08-25T06:20:57.108Z",
+        "created_at": "2023-08-24T16:12:19.699Z",
+        "updated_at": "2023-08-24T13:21:30.925Z",
+        "parking_space_id": "6e5a0611-db26-48f5-869f-0a302d8cee7f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "525ebcfc-89ed-4103-a28f-1d4405b7bf9e",
+        "email": "Stacey.Green18@yahoo.com",
+        "firstName": "Jarrell",
+        "lastName": "Fadel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/724.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2e4893be-46ac-48aa-89c1-36b3c41bef93",
+        "email": "Raegan14@hotmail.com",
+        "firstName": "Alicia",
+        "lastName": "Rosenbaum",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1051.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "791b0d4a-29f6-4df9-97d0-959545e003fc",
+        "email": "Delbert.Beahan@gmail.com",
+        "firstName": "Amos",
+        "lastName": "Doyle",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/781.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "86879c3a-dc8a-498f-a39b-083e5aa7344b",
+        "email": "Courtney.Kuphal@hotmail.com",
+        "firstName": "Aliza",
+        "lastName": "Wintheiser",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/237.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b925979d-3450-4b09-b53c-f69c5b83445c",
+        "email": "Laverna13@hotmail.com",
+        "firstName": "Hilton",
+        "lastName": "Douglas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31538974",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "parking_space": [
+      {
+        "id": "ad84271f-d03c-4fd3-86e2-4137a8066173",
+        "location": "Parking Lot A",
+        "size": 40859,
+        "availability_times": "8am - 6pm",
+        "restrictions": "No overnight parking",
+        "created_at": "2023-08-24T10:24:43.020Z",
+        "updated_at": "2023-08-25T07:54:35.004Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "293a8344-ab30-4592-ae8b-70033be874f9",
+        "location": "Parking Garage B",
+        "size": 49520,
+        "availability_times": "24/7",
+        "restrictions": "Reserved for employees only",
+        "created_at": "2023-08-24T23:41:31.478Z",
+        "updated_at": "2023-08-24T18:09:56.165Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f4d6f080-183b-4f87-9cad-d99a6a6c445b",
+        "location": "Street Parking C",
+        "size": 96109,
+        "availability_times": "9am - 5pm",
+        "restrictions": "No parking on weekends",
+        "created_at": "2023-08-25T07:47:32.424Z",
+        "updated_at": "2023-08-24T12:40:15.737Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "97650544-9357-4885-bba6-d31024d89e91",
+        "location": "Underground Parking D",
+        "size": 71903,
+        "availability_times": "7am - 9pm",
+        "restrictions": "2-hour parking limit",
+        "created_at": "2023-08-24T23:52:33.909Z",
+        "updated_at": "2023-08-24T16:59:46.034Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3e3fb0c4-db6d-4790-a9b6-ad7cee868bd4",
+        "location": "Open Field Parking E",
+        "size": 30396,
+        "availability_times": "10am - 8pm",
+        "restrictions": "No parking on public holidays",
+        "created_at": "2023-08-24T21:13:29.052Z",
+        "updated_at": "2023-08-25T03:30:03.116Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "business": [
+      {
+        "id": "777c07c4-8e2a-4b47-9830-c36cfe171d6a",
+        "name": "ABC Restaurant",
+        "address": "123 Main Street",
+        "contact_number": "123-456-7890",
+        "created_at": "2023-08-25T00:01:45.107Z",
+        "updated_at": "2023-08-25T06:39:29.172Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0cdeb8c8-e447-445c-9e8c-b28ead0ccccb",
+        "name": "XYZ Cafe",
+        "address": "456 Park Avenue",
+        "contact_number": "987-654-3210",
+        "created_at": "2023-08-25T09:17:26.068Z",
+        "updated_at": "2023-08-25T08:02:26.019Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "37d856bc-88e3-4e15-9fbc-2e1ec583e1dc",
+        "name": "123 Bakery",
+        "address": "789 Elm Road",
+        "contact_number": "555-123-4567",
+        "created_at": "2023-08-24T18:19:35.256Z",
+        "updated_at": "2023-08-24T16:37:18.610Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5947662-3db8-4fc0-8891-ff79cee580a5",
+        "name": "PQR Salon",
+        "address": "321 Oak Lane",
+        "contact_number": "888-999-0000",
+        "created_at": "2023-08-24T20:00:14.630Z",
+        "updated_at": "2023-08-24T17:13:59.023Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f7bd35e-9c0e-4cc8-a207-93990430d29c",
+        "name": "MNO Gym",
+        "address": "654 Pine Street",
+        "contact_number": "111-222-3333",
+        "created_at": "2023-08-25T04:25:41.850Z",
+        "updated_at": "2023-08-25T07:09:04.006Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "39a8ecf0-1eb7-47dd-82a7-5e0376440a03",
+        "start_time": "2023-08-24T23:39:10.666Z",
+        "end_time": "2023-08-25T09:16:39.146Z",
+        "created_at": "2023-08-24T18:59:14.778Z",
+        "updated_at": "2023-08-24T18:54:08.047Z",
+        "parking_space_id": "ad84271f-d03c-4fd3-86e2-4137a8066173",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e53bf68-a1cb-44c8-970c-433672bb8752",
+        "start_time": "2023-08-25T03:18:03.482Z",
+        "end_time": "2023-08-25T05:16:08.033Z",
+        "created_at": "2023-08-24T11:43:28.572Z",
+        "updated_at": "2023-08-25T08:54:05.419Z",
+        "parking_space_id": "3e3fb0c4-db6d-4790-a9b6-ad7cee868bd4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7fd34e7-2a3c-42c0-ad9a-37a7fee0aa79",
+        "start_time": "2023-08-24T21:23:03.890Z",
+        "end_time": "2023-08-24T17:51:44.564Z",
+        "created_at": "2023-08-24T17:55:34.799Z",
+        "updated_at": "2023-08-25T03:00:10.522Z",
+        "parking_space_id": "293a8344-ab30-4592-ae8b-70033be874f9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e2d10f9-ed9e-4f34-a89c-db65c1d3e150",
+        "start_time": "2023-08-24T21:40:59.241Z",
+        "end_time": "2023-08-25T05:37:57.200Z",
+        "created_at": "2023-08-25T09:30:38.137Z",
+        "updated_at": "2023-08-24T23:02:05.785Z",
+        "parking_space_id": "3e3fb0c4-db6d-4790-a9b6-ad7cee868bd4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0333e5a1-e11c-467b-8e4f-9b3c321eee64",
+        "start_time": "2023-08-24T18:35:36.623Z",
+        "end_time": "2023-08-25T07:12:33.816Z",
+        "created_at": "2023-08-25T00:24:59.535Z",
+        "updated_at": "2023-08-24T14:02:23.134Z",
+        "parking_space_id": "ad84271f-d03c-4fd3-86e2-4137a8066173",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f1d550cf-f2c8-4cb9-bf8f-41c88712a493",
+        "email": "Danielle44@yahoo.com",
+        "firstName": "Rowena",
+        "lastName": "Beahan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49823618",
+        "tenantId": null
+      },
+      {
+        "reference": "7fecbe63-7fab-42be-8013-fb857aadb174",
+        "email": "Kaycee15@hotmail.com",
+        "firstName": "Dayton",
+        "lastName": "Parker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/608.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "20793cb1-5fb8-47f3-9957-0ea73759d558",
+        "email": "Sherwood.Kemmer@gmail.com",
+        "firstName": "Eladio",
+        "lastName": "Sauer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18510104",
+        "tenantId": null
+      },
+      {
+        "reference": "678dbd01-e0fd-4e9f-8f20-f69b3c65225a",
+        "email": "Mackenzie55@yahoo.com",
+        "firstName": "Keyon",
+        "lastName": "Klein",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46227772",
+        "tenantId": null
+      },
+      {
+        "reference": "81b59f72-fa0a-4365-89ed-6450d0a8d433",
+        "email": "Mathew49@gmail.com",
+        "firstName": "Chaim",
+        "lastName": "Harvey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31576481",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "parking_space": [
+      {
+        "id": "ee170281-9e33-4d29-b7e9-218d71704706",
+        "location": "Parking Lot A",
+        "size": 77613,
+        "availability_times": "9 AM - 5 PM",
+        "restrictions": "No overnight parking",
+        "created_at": "2023-08-25T00:23:01.515Z",
+        "updated_at": "2023-08-25T05:48:17.534Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "79b20819-1aea-44a4-b3cf-6c69115edba5",
+        "location": "Garage B",
+        "size": 51803,
+        "availability_times": "24/7",
+        "restrictions": "Reserved for employees only",
+        "created_at": "2023-08-24T14:15:27.028Z",
+        "updated_at": "2023-08-24T11:43:21.569Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "899fefeb-2ffb-4006-aa0a-7da0f0c34fcb",
+        "location": "Street Parking C",
+        "size": 35171,
+        "availability_times": "8 AM - 6 PM",
+        "restrictions": "Maximum 2 hours parking",
+        "created_at": "2023-08-25T02:47:04.802Z",
+        "updated_at": "2023-08-25T02:22:35.462Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0573e5bf-76c2-497b-ad28-02b694023631",
+        "location": "Underground Parking D",
+        "size": 4155,
+        "availability_times": "7 AM - 7 PM",
+        "restrictions": "No parking on Sundays",
+        "created_at": "2023-08-24T23:49:39.795Z",
+        "updated_at": "2023-08-24T16:15:16.245Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a409bd39-5452-411d-8f92-186a1839a711",
+        "location": "Open Field E",
+        "size": 94865,
+        "availability_times": "6 AM - 10 PM",
+        "restrictions": "Permit required",
+        "created_at": "2023-08-24T21:59:56.966Z",
+        "updated_at": "2023-08-24T14:26:16.837Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "business": [
+      {
+        "id": "391eed8a-b619-491c-9c74-55fe01ef3e34",
+        "name": "ABC Bakery",
+        "address": "123 Main Street",
+        "contact_number": "555-1234",
+        "created_at": "2023-08-25T07:21:32.772Z",
+        "updated_at": "2023-08-24T13:07:47.580Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "70a7427f-1bad-4174-9821-b69ea68ad432",
+        "name": "XYZ Salon",
+        "address": "456 Elm Avenue",
+        "contact_number": "555-5678",
+        "created_at": "2023-08-24T13:55:49.980Z",
+        "updated_at": "2023-08-25T08:03:29.139Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da0dbd9b-f756-4113-8a58-e82dd6580fb0",
+        "name": "123 Pharmacy",
+        "address": "789 Oak Drive",
+        "contact_number": "555-9012",
+        "created_at": "2023-08-25T02:35:15.077Z",
+        "updated_at": "2023-08-24T20:57:00.257Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cd13211f-32be-4121-85c6-b5a81b714c6d",
+        "name": "Acme Hardware",
+        "address": "10 Maple Lane",
+        "contact_number": "555-3456",
+        "created_at": "2023-08-24T14:16:30.586Z",
+        "updated_at": "2023-08-24T17:47:14.197Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb2aa0a1-2ac1-4fc9-960b-452a33fa377e",
+        "name": "Big Restaurant",
+        "address": "555 Pine Street",
+        "contact_number": "555-7890",
+        "created_at": "2023-08-24T23:07:21.951Z",
+        "updated_at": "2023-08-25T09:30:19.481Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "985766b3-02a9-4ddc-a151-776e0b35b7a0",
+        "start_time": "2023-08-25T03:41:43.037Z",
+        "end_time": "2023-08-24T22:53:35.109Z",
+        "created_at": "2023-08-25T09:42:00.018Z",
+        "updated_at": "2023-08-24T19:14:03.646Z",
+        "parking_space_id": "0573e5bf-76c2-497b-ad28-02b694023631",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a7487ea5-6d56-4ead-89ed-2871f7d28f48",
+        "start_time": "2023-08-25T00:19:06.036Z",
+        "end_time": "2023-08-25T07:36:23.770Z",
+        "created_at": "2023-08-24T17:19:21.264Z",
+        "updated_at": "2023-08-25T02:37:03.722Z",
+        "parking_space_id": "0573e5bf-76c2-497b-ad28-02b694023631",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b100bc3-1b03-4b6f-952f-21cbd111d155",
+        "start_time": "2023-08-24T11:05:34.416Z",
+        "end_time": "2023-08-25T06:25:42.559Z",
+        "created_at": "2023-08-24T17:39:56.614Z",
+        "updated_at": "2023-08-24T20:34:07.772Z",
+        "parking_space_id": "ee170281-9e33-4d29-b7e9-218d71704706",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b5a57bc-a186-49ca-8dbc-41439e9ad3ae",
+        "start_time": "2023-08-25T04:31:28.309Z",
+        "end_time": "2023-08-25T07:14:22.385Z",
+        "created_at": "2023-08-25T05:34:03.161Z",
+        "updated_at": "2023-08-24T12:58:31.229Z",
+        "parking_space_id": "a409bd39-5452-411d-8f92-186a1839a711",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d65e357-29ce-46f5-b912-f0c58c783128",
+        "start_time": "2023-08-25T06:18:03.394Z",
+        "end_time": "2023-08-25T06:21:05.918Z",
+        "created_at": "2023-08-25T09:49:58.939Z",
+        "updated_at": "2023-08-24T12:52:15.932Z",
+        "parking_space_id": "ee170281-9e33-4d29-b7e9-218d71704706",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d344ba9a-f5be-4e1b-b6b7-48430fd31632",
+        "email": "Krista.Bechtelar89@gmail.com",
+        "firstName": "Genevieve",
+        "lastName": "Farrell-Goldner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/880.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c2b1403b-9f1c-4232-b199-6ed60fbe1179",
+        "email": "Hulda.Mitchell63@hotmail.com",
+        "firstName": "Brett",
+        "lastName": "Green",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16745358",
+        "tenantId": null
+      },
+      {
+        "reference": "a9944668-4c83-48b6-8b45-c282e7c086cf",
+        "email": "Tiana45@yahoo.com",
+        "firstName": "Pattie",
+        "lastName": "Flatley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/379.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f906e185-364d-4260-9db0-6e7be8f691c4",
+        "email": "Laurel_Hudson75@yahoo.com",
+        "firstName": "Jerome",
+        "lastName": "Baumbach",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24855466",
+        "tenantId": null
+      },
+      {
+        "reference": "c781dd10-9257-4c2b-8809-f7991e4c8d7d",
+        "email": "Shirley.Stanton@hotmail.com",
+        "firstName": "Stevie",
+        "lastName": "Corkery",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46510968",
+        "tenantId": null
+      }
+    ]
+  }
+]
